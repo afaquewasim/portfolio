@@ -63,7 +63,6 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -73,8 +72,9 @@ section .title::after{
     font-size: 20px;
     color: crimson;
     padding: 0 5px;
-    background: #fff;
+    background: #222;
     transform: translateX(-50%);
+    
 }
 
 /* navbar styling */
@@ -194,7 +194,7 @@ section .title::after{
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    color:#555;
+    color:rgba(214, 13, 13, 0.829);
 }
 .home .home-content .text-3 span{
     color: crimson;
@@ -238,6 +238,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    background-color: #222;
 }
 .about .about-content .right .text span{
     color: crimson;
@@ -269,11 +270,11 @@ section .title::after{
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: rgb(197, 189, 189);
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #fff;
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -481,7 +482,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 .contact .right form .fields{
     display: flex;
